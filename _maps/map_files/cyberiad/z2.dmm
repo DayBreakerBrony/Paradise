@@ -2126,6 +2126,16 @@
 	icon_state = "darkgreynavybluecorner"
 	},
 /area/centcom/specops)
+"chS" = (
+/obj/machinery/syndiepad{
+	id = "syndie_cargo_load";
+	receive = 1
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/syndicate_mothership)
 "chW" = (
 /obj/machinery/door/window{
 	panel_open = 1
@@ -21676,6 +21686,15 @@
 	icon_state = "grimy"
 	},
 /area/centcom/court)
+"qvT" = (
+/obj/machinery/syndiepad{
+	target_id = "syndie_cargo_receive"
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "vault"
+	},
+/area/syndicate_mothership)
 "qwb" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/drinkingglasses,
@@ -43328,7 +43347,7 @@ vaX
 iXv
 pwO
 jcp
-slM
+chS
 slM
 njL
 njL
@@ -44356,7 +44375,7 @@ vaX
 ibA
 wIx
 xpe
-slM
+qvT
 slM
 njL
 njL
